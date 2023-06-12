@@ -1,0 +1,27 @@
+﻿@model WebApplication3.Models.wages
+@{
+    ViewBag.Title = "About";
+}
+
+<h2>About</h2>
+<p> login page </p>
+<h1>hello dzee pepega </h1>
+<br />
+<br />
+@using (Html.BeginForm("About", "main", FormMethod.Post))
+{
+    <p> enter number 1 : @Html.EditorFor(z => z.num1)</p>
+    <p> enter number 2 : @Html.EditorFor(z => z.num2)</p>
+    <br />
+    <input type="submit" value=" Answer" />
+    <br />
+
+    <p> the difference is  : @Html.DisplayFor(z => z.subtract)</p>
+
+
+}
+<br />
+<br />
+
+<p> click here to access the wages page </p>
+<p> @Html.ActionLink("calculate wages", "Index", "main") </p>

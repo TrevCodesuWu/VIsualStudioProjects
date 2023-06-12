@@ -1,0 +1,13 @@
+﻿@model IEnumerable<RolesApplication.Models.Order>
+@{
+    ViewBag.Title = "driverdel";
+}
+
+<h2>driver deliveries</h2>
+
+@foreach(var item in Model)
+            {
+                <div>@item.userEmail</div>
+                <div>@item.deliverystatus</div>
+                <div>@item.trackingnum</div>
+            }

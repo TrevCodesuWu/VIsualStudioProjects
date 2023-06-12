@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restuarantApp", "restuarantApp.csproj", "{FEB0E11B-4FDF-42C7-9761-DD98C5685D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restuarantApp.Tests", "..\restuarantApp.Tests\restuarantApp.Tests.csproj", "{BBC8EA1A-16B9-4EEB-BDF1-8312718B1B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB0E11B-4FDF-42C7-9761-DD98C5685D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB0E11B-4FDF-42C7-9761-DD98C5685D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB0E11B-4FDF-42C7-9761-DD98C5685D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB0E11B-4FDF-42C7-9761-DD98C5685D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC8EA1A-16B9-4EEB-BDF1-8312718B1B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC8EA1A-16B9-4EEB-BDF1-8312718B1B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC8EA1A-16B9-4EEB-BDF1-8312718B1B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC8EA1A-16B9-4EEB-BDF1-8312718B1B59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {129673BE-972A-455C-A01B-C4BA67D9FF92}
+	EndGlobalSection
+EndGlobal

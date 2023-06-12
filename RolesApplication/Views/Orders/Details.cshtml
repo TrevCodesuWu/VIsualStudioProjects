@@ -1,0 +1,50 @@
+﻿@model RolesApplication.Models.Order
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.drivers.DriverEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.drivers.DriverEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.userEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.userEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.trackingnum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.trackingnum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.deliverystatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.deliverystatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

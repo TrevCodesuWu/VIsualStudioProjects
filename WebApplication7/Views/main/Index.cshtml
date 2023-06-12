@@ -1,0 +1,18 @@
+﻿@model WebApplication7.Models.modef
+@{
+    ViewBag.Title = "Index";
+}
+<h1>CALM DOWM KAREN </h1>
+<h2>these is to calculate which is the biggest</h2>
+
+@using (Html.BeginForm("Index", "main", FormMethod.Post))
+{
+
+    <p>    Number 1 : @Html.EditorFor(a => a.num1)      </p>
+    <p>    Number 2 : @Html.EditorFor(a => a.num2)       </p>
+    <p>    Number 3 : @Html.EditorFor(a => a.num3)      </p>
+    <h1>   The Biggest of the numbers is : @Html.DisplayFor(a => a.biggestnum)      </h1>
+
+    
+        <input type="submit" value="dze ultamate button 1"   /> 
+        }

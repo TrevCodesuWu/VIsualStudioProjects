@@ -1,0 +1,95 @@
+﻿.search-input,
+.search-btn {
+    height: 40px;
+}
+
+#logoutForm {
+    height: 100%;
+}
+
+rounded-3 {
+    border-radius: 4px !important;
+}
+
+.nav-btn {
+    font-size: 14px !important;
+    text-align: center !important;
+}
+
+.nav-icon {
+    font-size: 22px;
+}
+
+.movie-details-section {
+    height: 60vh;
+}
+
+.details-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.movie-description {
+    border-top: 2px solid red;
+}
+
+.movie-card {
+    height: 70vh;
+    position: relative;
+}
+
+    .movie-card:hover > .movie-details-container {
+        display: block;
+    }
+
+.movie-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-details-container {
+    width: 100%;
+    height: 45%;
+    top: 100%;
+    transition: .3s;
+    transform: translateY(-100%);
+    background: white;
+    display: none;
+    opacity: .95;
+}
+
+.cart-btn:hover {
+    color: white;
+}
+
+.qty-icon {
+    cursor: pointer;
+}
+
+.bottom-nav {
+    list-style: none;
+}
+
+    .bottom-nav li {
+        margin-left: 12px;
+    }
+
+        .bottom-nav li a {
+            background: rgb(233, 233, 233);
+            padding: 8px 12px;
+            border-radius: 2px;
+            color: black;
+            position: relative;
+            transition: .3s all ease-in-out;
+        }
+
+.bottom-bar {
+    border-bottom: 4px solid #f10f0f;
+}
+
+.nav-link-wrapper:hover {
+    background: #acacac;
+    color: white !important;
+}

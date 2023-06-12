@@ -1,0 +1,30 @@
+﻿@model WebApplication3.Models.wages
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Wages</h1>
+
+<h4>Calculate</h4>
+
+
+@using (Html.BeginForm("Index", "main", FormMethod.Post))
+{
+    <p>employee name : @Html.EditorFor(z => z.name) </p>
+    <p> enter hours work : @Html.EditorFor(z => z.hoursworked)</p>
+    <p> enter rate per hours  : @Html.EditorFor(z => z.rateofpay)</p>
+    <p> your wages R: @Html.DisplayFor(z => z.Wages)</p>
+    <br />
+    <input type="submit" value="calculate" />
+
+
+
+
+}
+<br />
+
+<p> click here to access the about page </p>
+<p> @Html.ActionLink("about", "About", "main") </p>
+
+
